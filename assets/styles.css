@@ -1,0 +1,95 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body, html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    box-sizing:  content-box;
+}
+.header {
+    padding-bottom: 1rem !important;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+.header p {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding: 0.5rem 2rem !important;
+    background-color: #4CAF50;
+}
+.navbar-brand, .nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #ddd;
+}
+
+
+.about, .projects, .contact {
+    padding: 60px 20px;
+}
+.about h2, .projects h2, .contact h2 {
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+    color: #4CAF50;
+}
+
+
+.project-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s cubic-bezier(0,.7,.35,1.01);
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+.footer p {
+    margin: 0;
+}
+
+
+
+
+
+.project-page {
+    padding: 60px 20px;
+}
+.project-page h2 {
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+    color: #4CAF50;
+}
+.project-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
