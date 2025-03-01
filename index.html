@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-</head>
-<body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is a simple website hosted on GitHub Pages.</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alex Deb</title>
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="header">
+                <h1>Hello! I'm Alex Deb</h1>
+                <p>Showcasing my skills and projects</p>
+            </div>
+
+            <div class="about" id="about">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I am full stack web and mobile developer with a passion for creating dynamic and responsive
+                    applications.
+                    I have experience with Javascript, React, React Native and Bootsrap.
+                    I'm always eager to learn new technologies and improve my skills.
+                </p>
+            </div>
+
+            <div class="projects" id="projects">
+                <h2>Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 project-card">
+                        <div class="card">
+                            <!-- <img src="assets/images/3.jpg" class="card-img-top" alt="Project 3"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">MiamMiam</h5>
+                                <p class="card-text">A food delivery app</p>
+                                <a href="miammiam.html" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 project-card">
+                        <div class="card">
+                            <!-- <img src="assets/images/2.jpg" class="card-img-top" alt="Project 2"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">Feuillages</h5>
+                                <p class="card-text">A Yellow Pages like website listing</p>
+                                <a href="feuillages.html" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <h2>Contact Me</h2>
+
+            </div>
+                <div class="footer">
+            </div>
+
+            <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+        </div>
+    </body>
 </html>
