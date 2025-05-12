@@ -41,6 +41,11 @@ body {
     box-shadow: 0 0.12rem 1.25rem var(--box-shadow-color);
 }
 
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-color);
+}
+
 /* Sections */
 
 section {
@@ -61,11 +66,17 @@ section {
         backdrop-filter: blur(10px);
         box-shadow: 0 0.12rem 1.25rem var(--box-shadow-color);
         color: var(--light-text-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.12rem 1.25rem var(--primary-hover-color);
     }
 
 /* Buttons */
 
-.btn-primary {
+.btn-primary, .btn-primary.disabled {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     box-shadow: 0rem 0rem 1rem rgba(123, 47, 247, 0.5);
@@ -86,4 +97,11 @@ section {
 /* Icons */
 .fa-check-circle {
     color: var(--accent-color);
+}
+
+.social-links i {
+    transition: color 0.3s ease;
+}
+.social-links i:hover {
+    color:  var(--accent-color);
 }
